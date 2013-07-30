@@ -1,0 +1,13 @@
+
+presentations: 
+  - name: web0
+    driver: presentations.web.web:Web
+    settings: 
+        page: "web"
+        title: "Channel Web Presentation"
+
+  - name: ms_healthvault0
+    driver: custom_presentations.ms_health_vault:MSHealthVault
+    settings: 
+        server_ip: "192.168.33.106"
+        server_port: 8081
